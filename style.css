@@ -5,6 +5,8 @@ body {
     font-family: 'Consolas', monospace;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -122,3 +124,7 @@ ul li a:hover {
     color: #ffffff;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+  }
